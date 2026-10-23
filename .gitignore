@@ -48,6 +48,14 @@ $RECYCLE.BIN/
 **/venv/
 
 .copado
+
+# Local Agentia and editor files. Keep these out of story changes.
+*.md
+*.cmd
+*.sh
+*.mdc
+*.json
+
 # Local editor configuration folders specific to a local setup
 # There are more editors, but those two are some of the most used ones
 .idea
