@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discount_Percent__c</fullName>
+    <description>Discount offered on this Opportunity. Above 15% requires the owner's manager to approve before Closed Won. Above 30% also requires the Sales Director.</description>
+    <inlineHelpText>Enter the discount percent. 15% or less needs no approval. Above 15% needs manager approval before Closed Won. Above 30% also needs Sales Director approval.</inlineHelpText>
+    <label>Discount Percent</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Percent</type>
+</CustomField>
